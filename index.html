@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CiberBot — ¿Estás protegido?</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-icon">🛡️</div>
+      <div class="header-info">
+        <span class="header-name">CiberBot</span>
+        <span class="header-status">En línea</span>
+      </div>
+    </header>
+
+    <div class="chat" id="chat">
+      <!-- Los mensajes se generan con JS -->
+    </div>
+
+    <div class="input-area" id="input-area">
+      <div class="options" id="options"></div>
+      <div class="text-input-wrap" id="text-input-wrap" style="display:none">
+        <input type="text" id="text-input" placeholder="Escribí tu respuesta..." autocomplete="off" />
+        <button id="send-btn">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="bot.js"></script>
+</body>
+</html>
